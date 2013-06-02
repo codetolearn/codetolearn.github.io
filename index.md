@@ -7,7 +7,9 @@ tagline:
 ## What is Code To Learn?
 
 Code To Learn is fun. Create ideas and write code. Its simple!
-    
+
+[Code To Learn blog](http://codetolearn.wordpress.com/)
+
 ## List of Project Ideas
 
 Project Ideas
