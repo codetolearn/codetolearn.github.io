@@ -3,7 +3,6 @@ layout: page
 title: Code To Learn
 tagline: 
 ---
-{% include JB/setup %}
 
 ## What is Code To Learn?
 
