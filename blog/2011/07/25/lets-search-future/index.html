@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Lets Search Future - Code to Learn</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="Yeah Search is the achilles heel of an engineer. Most of the problem solving begins with searching the dataset. In early this decade an engineer Doug &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://codetolearn.github.io/blog/2011/07/25/lets-search-future">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Code to Learn" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Code to Learn</a></h1>
+  
+    <h2>dont learn to code</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:codetolearn.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Lets Search Future</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-25T00:00:00+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content">Yeah Search is the achilles heel of an engineer. Most of the problem solving begins with searching the dataset. In early this decade an engineer <a href="http://en.wikipedia.org/wiki/Doug_Cutting" target="_blank">Doug Cutting</a> dreamt a complete open source search infrastructure. In this tryst he created a family of  java projects. But the work is far from complete. Its a ongoing effort and if you work on any of them you will gain immense knowledge in that field.
+
+Search has three main parts. Crawling the web, creating an index of crawled data and Searching the index given a query. Following two Apache projects handles these functionality.
+<ul>
+	<li><a href="http://nutch.apache.org/" target="_blank">Apache Nutch</a> : This is the web crawler. Crawling sounds simple but given the vastness of internet with hundred different factors like webservers, content, backlinking etc. Its a huge task. You can play around nutch and implement some new cool feature. Here is the <a href="https://issues.apache.org/jira/browse/NUTCH" target="_blank">JIRA</a>. And you can also use nutch to create some special search engine. For example, twitter search is broken. it sucks. write a tweet search engine which sucks less.</li>
+	<li><a href="http://lucene.apache.org/java/docs/index.html" target="_blank">Apache Lucene</a> : Lucene is the best collection of information retrieval algorithms.  It is used for indexing the information and retrieving the results. Checkout the Jira and see if something interests you. Lucene also has subproject called <a href="http://lucene.apache.org/solr/" target="_blank">Solr</a> which is a complete search server such that index saved in it is available through HTTP rest api and it saves the index in a relational db. Many of us have done work on lucene and should be able to guide you in case you face any blockers.</li>
+</ul>
+One indexing and search project that a friend of mine suggested long back was indexing all the research papers(<a href="http://www.readwriteweb.com/archives/33_gb_of_scientific_papers_-_and_a_manifesto_-_upl.php" target="_blank">download here</a>) and making a recommendation engine for example if i am searching for <a href="http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf" target="_blank">Cassandra</a> paper, in search also include results for <a href="http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf" target="_blank">Amazon Dynamo</a> related papers. FYI, These two links are awesome  papers on distributed systems. I am saving distributed systems for the last ;-)
+
+Cheers,
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-25T00:00:00+05:30" pubdate data-updated="true"></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://codetolearn.github.io/blog/2011/07/25/lets-search-future/" data-via="" data-counturl="http://codetolearn.github.io/blog/2011/07/25/lets-search-future/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/07/25/apache-mahout/" title="Previous Post: Apache Mahout">&laquo; Apache Mahout</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/07/25/project-idea-visual-thesauras-like-application/" title="Next Post: Project idea - Visual Thesauras like application">Project idea - Visual Thesauras like application &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/07/31/lets-solve-hard-problems/">Lets Solve Hard Problems</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/25/project-idea-visual-thesauras-like-application/">Project Idea - Visual Thesauras Like Application</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/25/lets-search-future/">Lets Search Future</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/25/apache-mahout/">Apache Mahout</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/23/one-for-everything/">One for Everything</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

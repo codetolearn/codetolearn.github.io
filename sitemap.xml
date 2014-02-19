@@ -1,16 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://codetolearn.github.io/blog/2011/07/22/4/</loc>
+        <lastmod>2014-02-20T00:29:51+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://codetolearn.github.io/blog/2011/07/23/one-for-everything/</loc>
+        <lastmod>2014-02-20T00:29:51+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://codetolearn.github.io/blog/2011/07/25/apache-mahout/</loc>
+        <lastmod>2014-02-20T00:29:51+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://codetolearn.github.io/blog/2011/07/25/lets-search-future/</loc>
+        <lastmod>2014-02-20T00:29:51+05:30</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://codetolearn.github.io/blog/2011/07/25/project-idea-visual-thesauras-like-application/
+        </loc>
+        <lastmod>2014-02-20T00:29:51+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://codetolearn.github.io/blog/2011/07/31/lets-solve-hard-problems/</loc>
+        <lastmod>2014-02-20T00:29:51+05:30</lastmod>
+    </url>
+    <url>
         <loc>http://codetolearn.github.io/robots.txt</loc>
         <lastmod>2014-02-13T00:21:06+05:30</lastmod>
     </url>
     <url>
         <loc>http://codetolearn.github.io/blog/archives/</loc>
-        <lastmod>2014-02-13T00:21:06+05:30</lastmod>
+        <lastmod>2014-02-20T00:29:51+05:30</lastmod>
     </url>
     <url>
         <loc>http://codetolearn.github.io/</loc>
-        <lastmod>2014-02-13T00:21:06+05:30</lastmod>
+        <lastmod>2014-02-20T00:29:51+05:30</lastmod>
     </url>
     <url>
         <loc>http://codetolearn.github.io/about/</loc>

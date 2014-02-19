@@ -9,7 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="&#8220;The best minds of my generation are thinking about how to get people to click on ads. That sucks.&#8221;  Jeff Hammerbacher This quote very &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +67,338 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/07/31/lets-solve-hard-problems/">Lets Solve Hard Problems</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-31T00:00:00+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote>&#8220;The best minds of my generation are thinking about how to get people to click on ads. That sucks.&#8221;  Jeff Hammerbacher</blockquote>
+This quote very aptly points to all the wrong problems we are trying to solve. Agree those are problems we needed to be solved and bucks made out of them. And they will get solved. But they do not change the world into a better place.  Lets dare, double dare ourselves to look at those hard problems which will really make an impact on how we live in rest of our life.
+
+Here is a video of Steve Yegge&#8217;s OSCON-2011 talk where puts the same thoughts in a much better way.
+
+[youtube=http://www.youtube.com/watch?v=vKmQW_Nkfk8]
+
+&nbsp;
+
+Cheers,
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/07/25/project-idea-visual-thesauras-like-application/">Project Idea - Visual Thesauras Like Application</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-25T00:00:00+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Complexity: Tough
+
+Project Idea description:
+
+The idea is to have a mind map of words ( thesaurus ).
+
+There is a website called Visual Thesaurus which provides commercial
+application which one can use to visualize the link among words.
+
+For example:
+notation used below  -&gt; = relates to
+
+friend -&gt; pal
+firend -&gt; neighbour
+
+Visual Thesaurus will display a liked graph of colored nodes, where
+each node is a word, with edges of various lengths. It provides
+an interactive interface to view word&#8217;s meanings etc.
+
+What to use the accomplish the task?
+
+There is a project called WordNet where we can a database of English
+words and their relationship with other words.
+<a href="http://www.google.com/url?sa=D&amp;q=http://wordnet.princeton.edu/" rel="nofollow" target="_blank">http://wordnet.princeton.edu/</a>
+
+WordNet will serve as database to be explored.
+
+Next comes the visualization part. One can use any visualization
+technology.
+The selection of technology will make the project a bit easier or
+tougher.
+
+Ones that I know of are, in the order of complexity:
+* OpenGL - <a href="http://www.google.com/url?sa=D&amp;q=http://www.opengl.org/" rel="nofollow" target="_blank">http://www.opengl.org/</a>
+* Coin3D ( based on OpenGL ) - <a href="http://www.google.com/url?sa=D&amp;q=http://doc.coin3d.org/SoQt/" rel="nofollow" target="_blank">http://doc.coin3d.org/SoQt/</a>
+* HTML5 Canvas - <a href="http://www.google.com/url?sa=D&amp;q=http://diveintohtml5.org/canvas.html%23divingin" rel="nofollow" target="_blank">http://diveintohtml5.org/canvas.html#divingin</a>
+
+There would be definitely more of these. I have listed only those
+which I am  aware of.
+
+How to do it?
+
+Its upto you on how to make the design and select technology.
+
+Comments and suggestions are welcome.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/07/25/lets-search-future/">Lets Search Future</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-25T00:00:00+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Yeah Search is the achilles heel of an engineer. Most of the problem solving begins with searching the dataset. In early this decade an engineer <a href="http://en.wikipedia.org/wiki/Doug_Cutting" target="_blank">Doug Cutting</a> dreamt a complete open source search infrastructure. In this tryst he created a family of  java projects. But the work is far from complete. Its a ongoing effort and if you work on any of them you will gain immense knowledge in that field.
+
+Search has three main parts. Crawling the web, creating an index of crawled data and Searching the index given a query. Following two Apache projects handles these functionality.
+<ul>
+	<li><a href="http://nutch.apache.org/" target="_blank">Apache Nutch</a> : This is the web crawler. Crawling sounds simple but given the vastness of internet with hundred different factors like webservers, content, backlinking etc. Its a huge task. You can play around nutch and implement some new cool feature. Here is the <a href="https://issues.apache.org/jira/browse/NUTCH" target="_blank">JIRA</a>. And you can also use nutch to create some special search engine. For example, twitter search is broken. it sucks. write a tweet search engine which sucks less.</li>
+	<li><a href="http://lucene.apache.org/java/docs/index.html" target="_blank">Apache Lucene</a> : Lucene is the best collection of information retrieval algorithms.  It is used for indexing the information and retrieving the results. Checkout the Jira and see if something interests you. Lucene also has subproject called <a href="http://lucene.apache.org/solr/" target="_blank">Solr</a> which is a complete search server such that index saved in it is available through HTTP rest api and it saves the index in a relational db. Many of us have done work on lucene and should be able to guide you in case you face any blockers.</li>
+</ul>
+One indexing and search project that a friend of mine suggested long back was indexing all the research papers(<a href="http://www.readwriteweb.com/archives/33_gb_of_scientific_papers_-_and_a_manifesto_-_upl.php" target="_blank">download here</a>) and making a recommendation engine for example if i am searching for <a href="http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf" target="_blank">Cassandra</a> paper, in search also include results for <a href="http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf" target="_blank">Amazon Dynamo</a> related papers. FYI, These two links are awesome  papers on distributed systems. I am saving distributed systems for the last ;-)
+
+Cheers,
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/07/25/apache-mahout/">Apache Mahout</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-25T00:00:00+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">In next few post i am going to suggest some ideas which can be picked up as projects. And first in the series is <a title="Apache Mahout" href="http://mahout.apache.org/" target="_blank">Apache Mahout</a>. Apache Software Foundation is probably most important opensource foundation[1]. And i love to make quote &#8216;nobody gets fired using apache libraries&#8217;.
+
+Apache Mahout is an open source project to implement all the major machine learning algorithms in java. It covers algorithms on recommendations, classification, clustering and many more areas i am not aware of . These algorithms are highly optimized and often run on multiple nodes than single server using map/reduce paradigm(more on this later). Many companies including adobe, amazon foursquare, yahoo are using Mahout in their production systems.
+
+If you are interested in machine learning and algorithms, its a very good project to start working. Idea is to pick up an algorithm and implement it along with proper tests and may be a demo program. Here is a <a title="list of Algorithms planned to be implemented" href="https://cwiki.apache.org/confluence/display/MAHOUT/Algorithms" target="_blank">list of Algorithms planned to be implemented</a>.
+
+If you are still reading, i assume you are interested to explore a little more on this. Great !!
+
+You can start getting idea what machine learning algorithms are. Read <a href="http://www.flipkart.com/books/8184043708" target="_blank">Collective Intelligence</a> first. In the meantime decide which algorithm you wants to implement. Join the <a href="https://cwiki.apache.org/confluence/display/MAHOUT/Mailing+Lists" target="_blank">mahout mailing list</a>.  And yes, you can contact me.
+
+Cheers,
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/07/23/one-for-everything/">One for Everything</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-23T00:00:00+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">I thought let me just try to put my thoughts together on what we are trying to achieve, what we are NOT trying to achieve. Basically setting the expectation right. These are initial thoughts and bound to change over a period of time as we learn how to fit together.
+
+In simple words, we just wants to tell you while you are doing your engineering we are here to help in case you need any advice on technology, career guidance and any other thing. The reason we are focusing on final year projects right now is that we believe as a undergraduate yours ability to write clean code is very important.
+
+But i wants to make it clear, its not a spoon feeding place. We will help you with right pointers and show you the direction. But you will have to lead the path and shine. In many cases, we wont have immediate answers for the your questions. We can explore together and learn, thats our benefit, the reason we are making this effort.
+
+All the google groups, github repo, blog etc might make you think why so much hoopla, this is just a minor project , no big deal. But we think differently. These projects will go to yours resume and you should feel good when you talk about it. My final year project was second best thing i did during my engineering (first thing of course engineering itself B-) ).
+<ul>
+	<li>Google Group : This mailing list is the main communication channel. If you have any question, any blocker ask a question on the group and hopefully someone will answer it.</li>
+	<li>Github repo : Each of you should create a github account, put your code in the repo and may share it on the codetolearn. I would highly encourage reading other people code &amp; learning good parts and putting a comment if you find any bug or better way of doing same thing.</li>
+	<li>Blog : We thought of a central blog or wiki for documentation purpose. But having a personal blog and sharing your design decisions there will help you in getting started with the practice of putting thoughts on paper.</li>
+</ul>
+Personal github repo/personal blog will also ensure that you will have a better record of the things you did in yours college days. But nothing of this is mandatory. We highly encourage this but there is no rule that i will not answer your query if you dont have blog or something.
+
+Personal opinions about technologies is welcome. You think tumblr is best blogging platform, use it. You find svn more easy to operate, use svn.
+
+One more thing i wants to emphasize is the openness. Please share your ideas. Dont think anyone else will copy it. Implementing ideas are hard especially if it is not yours. But sharing will enable you a medium of getting feedback early. More on this later.
+
+let the coding begin.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/07/22/4/">How It Started?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-22T00:00:00+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Lets get to the point.
+
+How it started?
+
+Asif said:
+
+When i was in college, i was mostly clueless about what goes on in industry and how programmers write code in a company. Now after 4 yrs of work i have learnt some part of it, naturally you guys being my fellow jamians i wants to share that with you guys. We can discuss here how and when in full detail. To begin with i wants to help you in yours final year projects and any other project work you wants to take on. We can discuss individually and in groups as and when you need advice. from Saleem Ansari and me.
+
+So we had a discussion and thought of a plan on how to put up the infrastructure bits together. Basically we need these things:
+
+(1) a communication channel or a mailing list
+(2) a place where all the code can be hosted
+(3) a place where students will put their updates
+
+So here is the plan.
+
+We are creating
+
+(1) a google group - <a href="http://groups.google.com/group/codetolearn?hl=en">http://groups.google.com/group/codetolearn?hl=en</a>
+
+(2) a github repository - <a href="https://github.com/codetolearn">https://github.com/codetolearn</a>
+
+(3) a wordpress blog - <a href="http://codetolearn.wordpress.com/">http://codetolearn.wordpress.com</a>
+
+Additionally every student will maintain his/her own blog and we will aggregate everything at a single place. We have decided to use http://jmilug.org website for aggregation.
+
+Thats it for now.
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -78,6 +410,26 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/07/31/lets-solve-hard-problems/">Lets Solve Hard Problems</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/25/project-idea-visual-thesauras-like-application/">Project Idea - Visual Thesauras Like Application</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/25/lets-search-future/">Lets Search Future</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/25/apache-mahout/">Apache Mahout</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/23/one-for-everything/">One for Everything</a>
+      </li>
     
   </ul>
 </section>
